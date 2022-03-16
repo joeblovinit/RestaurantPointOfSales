@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center_horizontal"
+    android:orientation="vertical"
+    tools:context=".order_drink">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <ListView android:id="@+id/orderDrinkListView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:text="Back"
+            android:id="@+id/orderDrinkBackBtn"
+            android:backgroundTint="@color/teal_700"
+            android:textColor="#fff"
+            />
+
+
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">RestaurantPointOfSales</string>
+
+    <string-array name="foodTypes">
+        <item>Starter</item>
+        <item>Main</item>
+        <item>Side</item>
+        <item>Dessert</item>
+        <item>Drink</item>
+    </string-array>
+
+    <string-array name="staffRoles">
+        <item>Admin</item>
+        <item>Manager</item>
+        <item>Chef</item>
+        <item>Server</item>
+    </string-array>
+
+
+</resources>

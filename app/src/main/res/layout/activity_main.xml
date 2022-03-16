@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".main">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Point of Sales "
+            android:textColor="@color/teal_700"
+            android:textSize="40sp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:text="Order"
+            android:id="@+id/orderBtn"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/teal_700"
+            android:textColor="#fff"
+            />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:text="Tickets"
+            android:id="@+id/ticketBtn"
+            android:layout_margin="10dp"
+            android:backgroundTint="#623412"
+            android:textColor="#fff"
+            />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:text="Settings"
+            android:id="@+id/settingsBtn"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/teal_700"
+            android:textColor="#fff"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:text="Menu"
+            android:id="@+id/menuBtn"
+            android:layout_margin="10dp"
+            android:backgroundTint="#623412"
+            android:textColor="#fff"
+            />
+
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:text="Logout"
+            android:id="@+id/logoutBtn"
+            android:layout_margin="10dp"
+            android:backgroundTint="#6a0000"
+            android:textColor="#fff"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

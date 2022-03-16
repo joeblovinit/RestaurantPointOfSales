@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".settings">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Settings "
+            android:textColor="@color/teal_700"
+            android:textSize="40sp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:text="Add to menu"
+            android:id="@+id/addMenuBtn"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/teal_700"
+            android:textColor="#fff"
+            />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:text="Add Staff"
+            android:id="@+id/addStaffBtn"
+            android:layout_margin="10dp"
+            android:backgroundTint="#623412"
+            android:textColor="#fff"
+            />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:text="View/Edit Staff"
+            android:id="@+id/viewStaffBtn"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/teal_700"
+            android:textColor="#fff"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:text="Add Tables"
+            android:id="@+id/settingsAddTablesBtn"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/teal_700"
+            android:textColor="#fff"
+            />
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:text="Cancel"
+            android:id="@+id/settingsCancelBtn"
+            android:layout_margin="10dp"
+            android:backgroundTint="#623412"
+            android:textColor="#fff"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
